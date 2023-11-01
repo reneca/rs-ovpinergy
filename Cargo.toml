@@ -1,0 +1,26 @@
+[package]
+name = "rs-ovpinergy"
+version = "0.1.0"
+authors = ["Jeremy HERGAULT"]
+homepage = "https://www.overware.fr/ovpinergy/"
+repository = "https://github.com/reneca/rs-ovpinergy"
+license = "GPL-3.0-or-later"
+edition = "2021"
+description = "Library for OVPinergy card"
+
+[[example]]
+name = "leds"
+path = "examples/leds.rs"
+
+[[example]]
+name = "consumption"
+path = "examples/consumption.rs"
+
+
+[dependencies]
+rs-ovpinergy-macros = { path = "rs-ovpinergy-macros" }
+thiserror = "1"
+rppal = "0.14"
+bytes = "1"
+tokio = { version = "1", features = ["full"] }
+tracing = "0.1"
