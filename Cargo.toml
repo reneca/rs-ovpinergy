@@ -18,7 +18,7 @@ path = "examples/consumption.rs"
 
 
 [dependencies]
-rs-ovpinergy-macros = { path = "rs-ovpinergy-macros" }
+rs-ovpinergy-macros = { path = "rs-ovpinergy-macros", version = "0.1.0" }
 thiserror = "1"
 rppal = "0.14"
 bytes = "1"

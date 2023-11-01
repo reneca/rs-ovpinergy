@@ -1,12 +1,17 @@
 [package]
 name = "rs-ovpinergy-macros"
 version = "0.1.0"
+authors = ["Jeremy HERGAULT"]
+homepage = "https://www.overware.fr/ovpinergy/"
+repository = "https://github.com/reneca/rs-ovpinergy"
+license = "GPL-3.0-or-later"
 edition = "2021"
+description = "Macro library for OVPinergy card"
 
 [lib]
 proc-macro = true
 
 [dependencies]
-syn = { version = "2", features = ["full", "parsing"] }
+syn = { version = "2", features = ["full"] }
 quote = "1"
 proc-macro2 = "1"
