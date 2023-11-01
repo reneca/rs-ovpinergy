@@ -7,6 +7,10 @@ repository = "https://github.com/reneca/rs-ovpinergy"
 license = "GPL-3.0-or-later"
 edition = "2021"
 description = "Library for OVPinergy card"
+exclude = [
+    "rs-ovpinergy-macros/*",
+]
+
 
 [[example]]
 name = "leds"
